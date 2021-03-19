@@ -6,6 +6,7 @@ body{
     font-family: cursive,sans-serif;
     background: linear-gradient(rgb(2, 2, 73), rgb(1, 1, 122));
     color: white;
+    padding: 15px 0;
 }
 body::-webkit-scrollbar{
     display: none;
@@ -34,4 +35,34 @@ main{
 .img-description p{
     font-size: 1.2em;
     text-align: justify;
+}
+.ar-heading{
+    text-align: center;
+}
+.ar-date-container{
+    display: flex;
+    justify-content: space-around;
+    width: 42vw;
+}
+#ar-date{
+    width: 10em;
+    font-size: 1.2em;
+    height: 2em;
+    color: white;
+    background-color: transparent;
+    border: 1px solid transparent;
+    box-shadow: inset 2px 2px 30px darkolivegreen;
+}
+#ar-date-btn{
+    width: 5em;
+    height: 1.75em;
+    font-size: 1.1em;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+#ar-date-btn:hover{
+    border-color: transparent;
+    box-shadow: 2px 2px 8px black;
 }
